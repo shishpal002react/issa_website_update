@@ -1,0 +1,28 @@
+.partner-page-container2 {
+
+    width: 60%;
+    margin: auto;
+    margin-top: 3rem;
+
+    @media screen and (max-width: 768px) {
+        width: 90%;
+
+    }
+
+}
+
+.partner-page-container2111 {
+    display: flex;
+    /* grid-template-columns: 25% 75%; */
+    gap: 1rem;
+    /* flex-wrap: wrap; */
+    margin-bottom: 2rem;
+}
+
+@media (max-width : 480px) {
+
+    
+.partner-page-container2111 {
+    display: block;
+}
+}

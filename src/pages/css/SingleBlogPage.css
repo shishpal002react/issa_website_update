@@ -1,0 +1,33 @@
+.Single-blog-page-container {
+    width: 60%;
+    margin: auto;
+    font-family: 'Poppins', sans-serif;
+
+    @media screen and (max-width: 768px) {
+
+        width: 100%;
+
+    }
+}
+
+.Single-blog-page-container-rk {
+
+    height: auto;
+    margin-top: 2rem;
+    border-bottom: 1px solid rgb(153, 139, 139);
+    padding-bottom: 2rem;
+    margin-bottom: 3rem;
+}
+
+.Single-blog-page-container-rk>img {
+    max-width: 900px;
+    max-height: 400px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+    @media screen and (max-width: 768px) {
+
+        max-width: 100%;
+    }
+}

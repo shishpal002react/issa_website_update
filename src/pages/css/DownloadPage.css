@@ -1,0 +1,17 @@
+.download-page-container21 {
+    padding-right: 4%;
+    border-right: 1px solid gray;
+
+    @media screen and (max-width: 768px) {
+        border-right: none;
+    }
+}
+
+.support-page-container22 {
+    padding-left: 4%;
+
+    @media screen and (max-width: 768px) {
+        padding-left: 0;
+
+    }
+}

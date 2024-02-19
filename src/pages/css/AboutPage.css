@@ -1,0 +1,35 @@
+.about-page-container2 {
+    width: 80%;
+    margin: auto;
+    display: grid;
+
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    margin-bottom: 2rem;
+
+    @media screen and (max-width: 768px) {
+        grid-template-columns: repeat(2, 1fr);
+
+        @media screen and (max-width: 468px) {
+            grid-template-columns: repeat(1, 1fr);
+            gap: none;
+            width: 100%;
+        }
+
+    }
+
+}
+
+.about-page-container2>div {
+    /* border: 1px solid black; */
+    padding: 1rem;
+    text-align: center;
+    max-width: 350px;
+    margin: auto;
+    width: auto;
+
+
+
+
+
+}

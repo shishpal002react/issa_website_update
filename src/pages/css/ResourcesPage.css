@@ -1,0 +1,35 @@
+.resources-page-container21111 {
+    display: grid;
+    grid-template-columns: 70% 30%;
+    /* padding: 3% 10%; */
+    height: auto;
+
+    @media screen and (max-width: 768px) {
+        grid-template-columns: repeat(1, 1fr);
+
+    }
+}
+
+.resources-page-container211111 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    text-align: center;
+
+    @media screen and (max-width: 768px) {
+        grid-template-columns: repeat(1, 1fr);
+
+    }
+}
+
+.resources-page-container-rk {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+    text-align: center;
+
+    @media screen and (max-width: 768px) {
+        grid-template-columns: repeat(1, 1fr);
+
+    }
+}
